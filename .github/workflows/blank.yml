@@ -23,7 +23,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Initial status
-        run: echo $GITHUB_API_URL
+        run: |
+          pwd
+          ls
         
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
@@ -32,6 +34,8 @@ jobs:
            git status
            git branch
            echo $GITHUB_WORKSPACE
+           pwd
+           ls
            
 
 
