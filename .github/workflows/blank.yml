@@ -34,7 +34,9 @@ jobs:
            git status
            git branch
            echo $GITHUB_WORKSPACE
+           date > changedfiles.txt
            pwd
+           cat changedfiles.txt
            ls
            
 
