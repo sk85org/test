@@ -24,8 +24,8 @@ jobs:
     steps:
       - name: Initial status
         run: |
-           git status
-           git branch
+           echo status
+           echo branch
         
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
