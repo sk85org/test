@@ -38,6 +38,7 @@ jobs:
            pwd
            cat changedfiles.txt
            ls
+           gir retemo get-url origin  
            
 
 
