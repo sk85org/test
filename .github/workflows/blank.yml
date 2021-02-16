@@ -40,8 +40,8 @@ jobs:
            ls
            git remote -v
            git status
-           git branch
            git checkout -b release
+           git branch
            git push origin release
 
 
