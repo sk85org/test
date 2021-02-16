@@ -30,7 +30,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         with:
-          ref: dev
+          ref: main
       - name: Second status
         run: |
            echo $GITHUB_WORKSPACE
@@ -40,9 +40,12 @@ jobs:
            ls
            git remote -v
            git status
-           git checkout -b release
-           git branch
-           git push origin release
+           git config --global user.name 'Your Name'
+           git config --global user.email 'your-username@users.noreply.github.com'
+           ait add -A
+           git commit -m "Automated report"
+           git push
+
 
 
       # Runs a set of commands using the runners shell
