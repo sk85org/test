@@ -52,6 +52,7 @@ jobs:
       - name: Second status
         run: |
            ls
+           git fetch release
            git checkout -b release
            git push origin release
         
