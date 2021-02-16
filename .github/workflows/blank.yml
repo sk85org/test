@@ -50,7 +50,7 @@ jobs:
           ref: main
       - name: Second status
         run: |
-           git branch
+           git branch -a
 
         
 
