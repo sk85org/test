@@ -41,6 +41,7 @@ jobs:
            git remote -v
            git status
            git branch
+           git checkout -b release
 
 
       # Runs a set of commands using the runners shell
