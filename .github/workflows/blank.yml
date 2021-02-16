@@ -45,9 +45,6 @@ jobs:
            git add -A
            git commit -m "Automated report"
            git push
-           git checkout -b release
-           git pull
-           git push origin release
 
 
 
