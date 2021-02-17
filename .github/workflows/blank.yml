@@ -52,7 +52,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git pull origin release2
+          git merge origin release2
           git checkout -b release2
           git push origin release2
            
