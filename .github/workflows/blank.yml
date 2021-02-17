@@ -52,7 +52,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git fetch release2
+          git fetch
+          git branch -a
           git push origin release2
            
            
