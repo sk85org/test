@@ -54,7 +54,8 @@ jobs:
         run: |
           git fetch
           git branch -a
-          git push remotes/origin/release2
+          git checkout release2
+          git branch -a
            
            
       # Runs a set of commands using the runners shell
