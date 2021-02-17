@@ -56,6 +56,7 @@ jobs:
           git branch -a
           git checkout release2
           git branch -a
+          git pull origin/main
           git merge --allow-unrelated-histories origin/main
            
       # Runs a set of commands using the runners shell
