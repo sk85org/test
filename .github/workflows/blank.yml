@@ -56,7 +56,7 @@ jobs:
           git branch -a
           git checkout release2
           git branch -a
-          git git merge --no-ff main
+          git merge --no-ff main
            
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
